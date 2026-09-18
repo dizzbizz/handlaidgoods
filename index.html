@@ -75,6 +75,17 @@
     font-size:12.5px;color:#9C8B79;
     display:flex;flex-direction:column;gap:6px;align-items:center;
   }
+  .foot a{
+    color:var(--gold);
+    text-decoration:none;
+    border-bottom:1px solid rgba(217,155,43,.45);
+    padding:4px 2px;
+  }
+  .foot a:hover,.foot a:focus-visible{
+    color:var(--paper);
+    border-bottom-color:var(--paper);
+  }
+  .foot a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -105,7 +116,7 @@
   <p class="lede">Traditional flash, pressed by hand — one shirt at a time. The sheet is being drawn.</p>
 
   <div class="foot">
-    <span>hello@handlaidgoods.com</span>
+    <a href="mailto:hello@handlaidgoods.com">hello@handlaidgoods.com</a>
     <span>&copy; Handlaid Goods</span>
   </div>
 
